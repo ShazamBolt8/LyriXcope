@@ -29,18 +29,18 @@ main();
 
 This will output:
 
-```json
+```js
 {
-  "status": 200,
-  "song": {
-    "song": "Man Without Love",
+  status: 200,
+  song: {
+    song: "Man Without Love",
     "song-link": "https://www.lyrics.com/lyric/4710969/Engelbert+Humperdinck/Man+Without+Love",
-    "artist": "Engelbert Humperdinck",
+    artist: "Engelbert Humperdinck",
     "artist-link": "https://www.lyrics.com/artist/Engelbert+Humperdinck/14870",
-    "album": "Easy Listening Gold: 1968-1969",
+    album: "Easy Listening Gold: 1968-1969",
     "album-link": "https://www.lyrics.com/album/529992/Easy Listening Gold: 1968-1969"
   },
-  "lyrics": "I can remember when we walked together\n
+  lyrics: "I can remember when we walked together\n
   Sharing a love I thought would last forever\n
   Moonlight to show the way so we can follow\n
   Waiting inside her eyes was my tomorrow\n
