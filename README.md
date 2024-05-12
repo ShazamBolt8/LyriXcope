@@ -1,19 +1,18 @@
 # LyriXcope
 
-LyriXcope is a simple Node.js library that allows you to scrape song lyrics from [lyrics.com](https://www.lyrics.com/) with ease. It requires the use of npm, axios, and cheerio. A lyrics.com account is also required.
+LyriXcope is a simple Node.js library that allows you to scrape song lyrics from [lyrics.com](https://www.lyrics.com/) with ease. A [Lyrics.com](https://www.lyrics.com/) account is required.
 
 ## Installation
 
-Before using LyriXcope, make sure you have npm, axios, and cheerio installed. You can install them via npm if you haven't already:
+Install LyriXcope using NPM:
 
 ```bash
-npm install axios
-npm install cheerio
+npm i lyrixcope
 ```
 
 ## Usage
 
-To use LyriXcope, simply include it in your project and call the `getSongLyrics(song, artist)` function. Here's an example:
+To use LyriXcope, simply include and configure it in your project and call the `getSongLyrics(song, artist)` function. Here's an example:
 
 ```javascript
 const { configureLyrixcope, getSongLyrics } = require("lyrixcope");
@@ -77,8 +76,8 @@ This will output:
 If the API keys are invalid or the song isn't available, the response will be:
 
 ```js
-{ status: 403, song: null, lyrics: null }
-{ status: 404, song: null, lyrics: null }
+{ status: 403, song: null, lyrics: null } //invalid token
+{ status: 404, song: null, lyrics: null } //not found
 ```
 
 The artist name parameter is optional. If provided, it helps narrow down the search results.
@@ -88,12 +87,15 @@ The artist name parameter is optional. If provided, it helps narrow down the sea
 - Node.js
 - Lyrics.com account
 - npm
+
+## Depenencies:
+
 - axios
 - cheerio
 
 ## API Key
 
-LyriXcope requires an API key and User ID from lyrics.com to function properly. You can obtain a free API key by signing up [here](https://www.lyrics.com/api.php). Please note that there is a limit of 100 requests per day.
+LyriXcope requires an API key and User ID from [lyrics.com](https://www.lyrics.com/) to function properly. You can obtain a free API key by signing up [here](https://www.lyrics.com/api.php). Please note that there is a limit of 100 requests per day.
 
 ## License
 

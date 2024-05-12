@@ -1,6 +1,6 @@
 {
   "name": "lyrixcope",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Node.js library for scraping song lyrics from lyrics.com",
   "main": "main.js",
   "author": "shazambolt8",
