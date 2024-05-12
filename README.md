@@ -76,9 +76,9 @@ This will output:
 
 If the API keys are invalid or the song isn't available, the response will be:
 
-```json
-{ status: 403, song: null, lyrics: null } //invalid token
-{ status: 404, song: null, lyrics: null } //not found
+```js
+{ status: 403, song: null, lyrics: null }
+{ status: 404, song: null, lyrics: null }
 ```
 
 The artist name parameter is optional. If provided, it helps narrow down the search results.
