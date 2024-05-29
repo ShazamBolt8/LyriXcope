@@ -49,8 +49,8 @@ This will output:
   Lonely is a man without love\n
   Every day I start out, then I cry my heart out\n
   Lonely is a man without love\n\n
-  Every day I wake up, then I start to break up\nK
-  nowing that it's cloudy above\n
+  Every day I wake up, then I start to break up\n
+  Knowing that it's cloudy above\n
   Every day I start out, then I cry my heart out\n
   Lonely is a man without love\n\n
   I cannot face this world that's fallen down on me\n
